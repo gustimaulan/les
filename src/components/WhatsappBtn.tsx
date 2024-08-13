@@ -10,6 +10,11 @@ const WhatsappBtn: React.FC<WhatsappBtnProps> = ({ message, btnText }) => {
     const url = `https://api.whatsapp.com/send?phone=6289506851030&text=${encodeURIComponent(
       message
     )}`;
+    // Track event with Umami
+  if (window.umami) {
+    window.umami.track("whatsapp_click");
+  }
+    // Track event with Meta
     if (window.fbq) {
       window.fbq("track", "AddToCart");
     }
