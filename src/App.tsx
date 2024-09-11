@@ -12,6 +12,8 @@ import Btn from './components/Btn'
 import PricingTable from './components/PricingTable'
 import Gallery from './components/Gallery'
 import Facebook from './tracking/Facebook'
+import Faq from './components/Faq'
+import StarRating from './components/StarRating'
 
 function App() {
 
@@ -28,8 +30,11 @@ function App() {
     message={"Halo, mohon info untuk daftar les di Sigmath"}
     btnText={"Chat Sekarang via WhatsApp"}
     />
+    <StarRating />
     <Testimonials images={[]}  />
-    <p className='text-2xl pb-4 text-center'>Ingin anak betah belajar karena ada yang mendampingi? Yuk Gabung sekarang juga!</p>
+    <Faq />
+    <p className='text-2xl text-center'>Ingin anak betah belajar karena ada yang mendampingi? Yuk Gabung sekarang juga!</p>
+    <StarRating />
     <Btn anchorId={'join'} label={'Daftar Klik Disini'}/>
     </Wrapper>
     <Footer />
