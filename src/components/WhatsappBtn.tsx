@@ -18,7 +18,8 @@ const WhatsappBtn: React.FC<WhatsappBtnProps> = ({ message, btnText }) => {
     if (window.fbq) {
       window.fbq("track", "AddToCart");
     }
-    window.open(url, "_blank");
+    // Redirect in the same tab
+    window.location.href = url;
   };
 
   return (
