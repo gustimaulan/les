@@ -16,9 +16,9 @@ export const GALLERYIMAGES: ImagesProps[] = [
         caption: 'TK - Calistung - Kembaran'
     },
     {
-        url: 'images/calistung-3.webp',
+        url: 'images/calistung-4.webp',
         alt: 'calistung',
-        caption: 'TK - Calistung - Purwokerto Utara'
+        caption: 'TK - Calistung - Purwokerto Barat'
     },
     {
         url: 'images/sd-1.webp',
@@ -26,9 +26,9 @@ export const GALLERYIMAGES: ImagesProps[] = [
         caption: 'SD - Les Matematika - Purwokerto Utara'
     },
     {
-        url: 'images/sd-2.webp',
-        alt: 'sd',
-        caption: 'SD - Les Bahasa Inggris - Purwokerto Selatan'
+        url: 'images/mengaji-1.webp',
+        alt: 'tk',
+        caption: 'TK - Mengaji - Purwokerto Selatan'
     },
     {
         url: 'images/sd-3.webp',
