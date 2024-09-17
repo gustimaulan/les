@@ -7,9 +7,9 @@ interface WhatsappBtnProps {
 
 const WhatsappBtn: React.FC<WhatsappBtnProps> = ({ message, btnText }) => {
   const handleWhatsapp = () => {
-    const url = `https://api.whatsapp.com/send?phone=6289506851030&text=${encodeURIComponent(
+    const url = `whatsapp://send?text=${encodeURIComponent(
       message
-    )}`;
+    )}&phone=6289506851030`;
     // Track event with Umami
   if (window.umami) {
     window.umami.track("whatsapp_click");
