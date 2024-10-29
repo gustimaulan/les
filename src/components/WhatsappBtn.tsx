@@ -9,7 +9,7 @@ const WhatsappBtn: React.FC<WhatsappBtnProps> = ({ message, btnText }) => {
   const handleWhatsapp = () => {
     const url = `whatsapp://send?text=${encodeURIComponent(
       message
-    )}&phone=6289506851030`;
+    )}&phone=6285942971649`;
     // Track event with Umami
   if (window.umami) {
     window.umami.track("whatsapp_click");
