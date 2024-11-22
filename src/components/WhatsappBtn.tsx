@@ -14,10 +14,10 @@ const WhatsappBtn: React.FC<WhatsappBtnProps> = ({ message, btnText }) => {
   if (window.umami) {
     window.umami.track("whatsapp_click");
   }
-    // Track event with Meta
-    if (window.fbq) {
-      window.fbq("track", "AddToCart");
-    }
+    // // Track event with Meta
+    // if (window.fbq) {
+    //   window.fbq("track", "AddToCart");
+    // }
     // Redirect in the same tab
     window.location.href = url;
   };
