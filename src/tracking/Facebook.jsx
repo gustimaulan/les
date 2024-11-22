@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const YOUR_PIXEL_ID = '820412819289431x';
+const YOUR_PIXEL_ID = '820412819289431';
 
 const Facebook = () => {
   useEffect(() => {

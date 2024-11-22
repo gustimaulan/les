@@ -11,7 +11,6 @@ import Wrapper from './components/Wrapper'
 import Btn from './components/Btn'
 import PricingTable from './components/PricingTable'
 import Gallery from './components/Gallery'
-import Facebook from './tracking/Facebook'
 import Faq from './components/Faq'
 import StarRating from './components/StarRating'
 
@@ -38,7 +37,6 @@ function App() {
     <Btn anchorId={'join'} label={'Daftar Klik Disini'}/>
     </Wrapper>
     <Footer />
-    <Facebook />
     </div>
     </>
   )
