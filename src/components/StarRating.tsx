@@ -31,7 +31,7 @@ function StarRating() {
           </div>
           <div className="flex flex-col text-center">
             <p className="text-yellow-400 text-2xl">★★★★★</p>{" "}
-            <p className="text-sm">(99+ siswa telah mendaftar)</p>
+            <p className="text-sm">(199+ siswa telah mendaftar)</p>
           </div>
         </div>
         </section>
