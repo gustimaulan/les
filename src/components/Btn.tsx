@@ -9,7 +9,7 @@ const Button: React.FC<ButtonProps> = ({ anchorId, label }) => {
   const handleClick = () => {
     const anchor = document.getElementById(anchorId);
     if (anchor) {
-      anchor.scrollIntoView({ behavior: 'smooth' });
+      anchor.scrollIntoView();
     }
   };
 
