@@ -9,7 +9,7 @@ const Testimonials: React.FC<TestiImagesProps> = () => {
       <div className="grid grid-cols-2 gap-2 items-center justify-center">
         {TESTIIMAGES.map((image, index) => (
           <div key={index} className="bg-gray-100 rounded-lg mx-auto">
-            <img src={image.url} alt={image.alt} className="rounded-lg overflow-hidden" />
+            <img src={image.url} alt={image.alt} className="rounded-lg overflow-hidden" loading='lazy' />
           </div>
         ))}
       </div>
