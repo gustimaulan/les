@@ -10,10 +10,14 @@ const WhatsappBtn: React.FC<WhatsappBtnProps> = ({ message, btnText }) => {
     const url = `whatsapp://send?text=${encodeURIComponent(
       message
     )}&phone=6285942971649`;
+    // Track event with Zaraz
+    if (typeof window !== "undefined" && (window as any).zaraz) {
+      (window as any).zaraz.track("AddToCart");
+    }
     // Track event with Umami
-  if (window.umami) {
-    window.umami.track("whatsapp_click");
-  }
+    if (window.umami) {
+      window.umami.track("whatsapp_click");
+    }
     // // Track event with Meta
     // if (window.fbq) {
     //   window.fbq("track", "AddToCart");
