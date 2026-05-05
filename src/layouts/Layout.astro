@@ -1,0 +1,38 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Google Tag Manager -->
+		<script is:inline>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s); j.async = true; j.src = "https://stape.sigmath.net/gtm.js?" + i; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'id=GTM-PHWM6F9N');</script>
+		<!-- End Google Tag Manager -->
+		<script defer src="https://cloud.umami.is/script.js" data-website-id="0f0e0bb0-798d-4215-9866-b601a42ea704"></script>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="https://sigmath.net/wp-content/uploads/2022/11/sigmath-favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<link rel="preload" href="/images/les-privat-1.webp" as="image" type="image/webp">
+		<meta name="description" content="Les privat berkualitas di Purwokerto, guru datang ke rumah. Bimbel Sigmath menyediakan les privat yang efektif dan efisien untuk meningkatkan prestasi akademik siswa." />
+		<meta name="keywords" content="guru privat Purwokerto datang ke rumah" />
+		<meta name="author" content="Bimbel Sigmath" />
+		<meta property="og:title" content="Bimbel Sigmath - Les Privat Berkualitas di Purwokerto" />
+		<meta property="og:description" content="Les privat berkualitas di Purwokerto, guru datang ke rumah. Bimbel Sigmath menyediakan les privat yang efektif dan efisien untuk meningkatkan prestasi akademik siswa." />
+		<meta property="og:image" content="https://sigmath.net/wp-content/uploads/2022/11/sigmath-favicon.pngo" />
+		<meta property="og:url" content="https://info.sigmath.net" />
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://stape.sigmath.net/ns.html?id=GTM-PHWM6F9N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<slot />
+		<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=820412819289431&ev=PageView&noscript=1" /></noscript>
+	</body>
+</html>
