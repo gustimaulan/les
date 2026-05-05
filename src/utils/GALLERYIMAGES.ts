@@ -8,62 +8,62 @@ export const GALLERYIMAGES: ImagesProps[] = [
     {
         url: 'images/calistung-1.webp',
         alt: 'calistung',
-        caption: 'TK - Calistung - Purwokerto Utara'
+        caption: 'TK - Calistung'
     },
     {
         url: 'images/calistung-2.webp',
         alt: 'calistung',
-        caption: 'TK - Calistung - Kembaran'
+        caption: 'TK - Calistung'
     },
     {
         url: 'images/calistung-4.webp',
         alt: 'calistung',
-        caption: 'TK - Calistung - Purwokerto Barat'
+        caption: 'TK - Calistung'
     },
     {
         url: 'images/sd-1.webp',
         alt: 'sd',
-        caption: 'SD - Les Matematika - Purwokerto Utara'
+        caption: 'SD - Les Matematika'
     },
     {
         url: 'images/mengaji-1.webp',
         alt: 'tk',
-        caption: 'TK - Mengaji - Purwokerto Selatan'
+        caption: 'TK - Mengaji'
     },
     {
         url: 'images/sd-3.webp',
         alt: 'sd',
-        caption: 'SD - Les Mapel - Purwokerto Selatan'
+        caption: 'SD - Les Mapel'
     },
     {
         url: 'images/sd-4.webp',
         alt: 'sd',
-        caption: 'SD - Les Olimpiade - Purwokerto Timur'
+        caption: 'SD - Les Mapel'
     },
     {
         url: 'images/sd-5.webp',
         alt: 'sd',
-        caption: 'SD - Les Matematika - Purwokerto Barat'
+        caption: 'SD - Les Matematika'
     },
     {
         url: 'images/sd-6.webp',
         alt: 'sd',
-        caption: 'SD - Les Matematika - Sokaraja'
+        caption: 'SD - Les Matematika'
     },
     {
         url: 'images/sd-7.webp',
         alt: 'sd',
-        caption: 'SMP - Les Persiapan PAS - Purwokerto Timur'
+        caption: 'SMP - Les Mapel'
     },
     {
         url: 'images/smp-1.webp',
         alt: 'smp',
-        caption: 'SMP - Les Matematika - Karanglewas'
+        caption: 'SMP - Les Matematika'
     },
     {
         url: 'images/sma-1.webp',
         alt: 'sma',
-        caption: 'SMA - Les Kimia - Purwokerto Barat'
+        caption: 'SMA - Les Kimia'
     },
 ]
 

@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductImage from '../components/ProductImage';
+import ProductDesc from '../components/ProductDesc';
+import FeaturedList from '../components/FeaturedList';
+import Testimonials from '../components/Testimonials';
+import WhatsappBtn from '../components/WhatsappBtn';
+import Footer from '../components/Footer';
+import Wrapper from '../components/Wrapper';
+import Btn from '../components/Btn';
+import PricingTable from '../components/PricingTable';
+import Gallery from '../components/Gallery';
+import Faq from '../components/Faq';
+import StarRating from '../components/StarRating';
+import '../global.css';
+---
+
+<Layout title="Bimbel Sigmath - Les Privat Berkualitas di Bumiayu" city="Bumiayu">
+	<main class="bg-gray-100">
+		<ProductImage src="images/les-privat-bumiayu.jpg" client:load />
+		<Wrapper client:load>
+			<ProductDesc city="Bumiayu" client:load />
+			<FeaturedList client:load />
+			<Gallery city="Bumiayu" url={''} alt={''} caption={''} client:load />
+			<PricingTable client:load />
+			<WhatsappBtn 
+				message={"Halo, mohon info untuk daftar les di Sigmath"}
+				btnText={"Chat Sekarang via WhatsApp"}
+				client:load
+			/>
+			<StarRating client:load />
+			<Testimonials images={[]} client:load />
+			<Faq client:load />
+			<p class="text-2xl text-center">Ingin anak betah belajar karena ada yang mendampingi? Yuk Gabung sekarang juga!</p>
+			<StarRating client:load />
+			<Btn anchorId={'join'} label={'Daftar Klik Disini'} client:load />
+		</Wrapper>
+		<Footer client:load />
+	</main>
+</Layout>

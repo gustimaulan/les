@@ -1,7 +1,7 @@
 import { GALLERYIMAGES, ImagesProps } from "../utils/GALLERYIMAGES"
 
 
-  const Gallery: React.FC<ImagesProps> = () => {
+const Gallery: React.FC<{ city?: string } & ImagesProps> = ({ city = "Purwokerto" }) => {
 
   return (
     <div className="py-8 border-t">
@@ -10,7 +10,9 @@ import { GALLERYIMAGES, ImagesProps } from "../utils/GALLERYIMAGES"
       {GALLERYIMAGES.map((image, index) => (
         <div key={index} className="p-2">
           <img src={image.url} alt={image.alt} className="rounded-t-lg h-52 w-full object-cover object-center" loading="lazy" />
-          <p className="text-center text-xs bg-gray-100 p-2 rounded-b-lg">{image.caption}</p>
+          <p className="text-center text-xs bg-gray-100 p-2 rounded-b-lg">
+            {image.caption.replace(/Purwokerto/g, city)}
+          </p>
         </div>
       ))}
       </div>
