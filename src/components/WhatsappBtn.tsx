@@ -29,7 +29,7 @@ const WhatsappBtn: React.FC<WhatsappBtnProps> = ({ message, btnText }) => {
           Ayo gabung sekarang bersama ratusan siswa lainnya..
         </p>
         <img
-          src="./images/panah-gif.gif"
+          src="/images/panah-gif.gif"
           alt="panah gif"
           className="mx-auto"
         ></img>
