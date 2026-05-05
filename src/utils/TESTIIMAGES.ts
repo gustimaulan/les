@@ -7,27 +7,27 @@ export interface ImageProps {
   
   export const TESTIIMAGES: ImageProps[] = [
     {
-      url: 'images/testi-1.webp',
+      url: '/images/testi-1.webp',
       alt: 'Testimonial Image 1',
     },
     {
-      url: 'images/testi-2.webp',
+      url: '/images/testi-2.webp',
       alt: 'Testimonial Image 1',
     },
     {
-      url: 'images/testi-3.webp',
+      url: '/images/testi-3.webp',
       alt: 'Testimonial Image 1',
     },
     {
-      url: 'images/testi-4.webp',
+      url: '/images/testi-4.webp',
       alt: 'Testimonial Image 1',
     },
     {
-      url: 'images/testi-5.webp',
+      url: '/images/testi-5.webp',
       alt: 'Testimonial Image 1',
     },
     {
-      url: 'images/testi-6.webp',
+      url: '/images/testi-6.webp',
       alt: 'Testimonial Image 1',
     },
     // Add more images as needed
